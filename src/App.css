@@ -1,5 +1,27 @@
-.App {
-  text-align: center;
+:root {
+  --bg-main-color: hsl(88 25 78 100%);
+  --txt-main-color: hsl(228 9 45 100%);
+  --primary-color: hsl(152 28 66 100%);
+  --secondary-color: hsl(0 7 75 100%);
+  --accent-color: hsl(176 31 55 100%);
+  --error-color: hsl(351 62 54 100%);
+  --success-color: hsl(137 52 45 100%);
+}
+
+* {
+  color: hsl(228 9 45 100%);
+  background-color: hsl(88 25 78 100%);
+}
+
+.img {
+  
+}
+
+#home {
   background-color: var(--bg-main-color);
+}
+
+#home > h1 {
   color: var(--txt-main-color);
 }
+
