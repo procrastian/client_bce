@@ -1,4 +1,5 @@
 import './App.css';
+import './globalStylingVars.css'
 import { Header, Qualifications, Footer } from './Components';
 import Home from './pages/home'
 import About from './pages/about'
