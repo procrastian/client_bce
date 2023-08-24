@@ -8,20 +8,32 @@
   --success-color: hsl(137 52 45 100%);
 }
 
-* {
-  color: hsl(228 9 45 100%);
-  background-color: hsl(88 25 78 100%);
+body {
+  background-color: grey;
 }
 
-.img {
-  
+.container {
+  background-color: yellow;
+  max-width: 800px;
+  max-height: 1fr;
+  margin: 0 auto;
 }
 
-#home {
-  background-color: var(--bg-main-color);
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 32px 8px 32px 8px;
+  border: solid 1px coral;
 }
 
-#home > h1 {
-  color: var(--txt-main-color);
+.component {
+  background-color: lightblue;
+  padding: 8px;
+  border: solid 1px teal;
+  height: 80px;
 }
 
+#qualifications {
+  height: 160px;
+}
