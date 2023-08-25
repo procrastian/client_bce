@@ -1,5 +1,12 @@
 #home {
   display: grid;
-
+  background-color: var(--bg-main-color);
 }
+
+#home > .image_container {
+  background: white;
+  padding: 5%;
+  box-shadow: inset 0 0 20px 20px var(--bg-main-color);
+}
+
 
