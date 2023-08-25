@@ -1,11 +1,5 @@
 #home {
   display: grid;
-  
+
 }
 
-#home_image {
-  width: 40vmin;
-  height: 40vmin;
-  object-fit: cover;
-  object-position: 100% center;
-}

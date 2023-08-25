@@ -1,15 +1,15 @@
 :root {
-  --bg-main-color: hsl(88 25 78 100%);
-  --txt-main-color: hsl(228 9 45 100%);
-  --primary-color: hsl(152 28 66 100%);
-  --secondary-color: hsl(0 7 75 100%);
-  --accent-color: hsl(176 31 55 100%);
-  --error-color: hsl(351 62 54 100%);
-  --success-color: hsl(137 52 45 100%);
+  --bg-main-color: hsl(88, 25%, 78%, 100%);
+  --txt-main-color: hsl(228, 9%, 45%, 100%);
+  --primary-color: hsl(152, 28%, 66%, 100%);
+  --secondary-color: hsl(0, 7%, 75%, 100%);
+  --accent-color: hsl(176, 31%, 55%, 100%);
+  --error-color: hsl(351, 62%, 54%, 100%);
+  --success-color: hsl(137, 52%, 45%, 100%);
 }
 
 body {
-  background-color: grey;
+  background-color: var(--bg-main-color);
 }
 
 .container {
@@ -32,6 +32,21 @@ body {
   padding: 8px;
   border: solid 1px teal;
   height: 80px;
+}
+
+.text_container {
+  text-align: center;
+}
+
+.image_container {
+  place-self: center;
+}
+
+.image_container > img {
+  width: 40vmin;
+  height: 40vmin;
+  object-fit: cover;
+  object-position: 100% center;
 }
 
 #qualifications {

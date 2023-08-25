@@ -1,4 +1,5 @@
 import mainLogo from "../../assets/BCE_Logo_Colour.jpg";
+import "../../App.css";
 import "./style.css";
 
 export default function Home() {
