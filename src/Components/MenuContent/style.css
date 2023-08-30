@@ -1,0 +1,36 @@
+.menu_modal {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 40vh;
+  width: 40vw;
+  background-color: var(--secondary-color);
+  place-content: center;
+  display: grid;
+  border-bottom-left-radius: 64px;
+}
+
+.menu_modal > ul {
+  list-style: none;
+}
+
+.menu_modal > ul > li {
+  place-items: center;
+  text-align: end;
+}
+
+.menu_modal > ul > li > a:link {
+  font-size:xx-large;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.menu_modal > ul > li > a:visited {
+  color: var(--text-main-color);
+}
+.menu_modal > ul > li > a:hover {
+  color: var(--accent-color);
+}
+
+.menu_modal > button {
+  place-self: end;
+}

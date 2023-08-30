@@ -25,14 +25,17 @@
   grid-area: buffer;
 }
 
-#menu > img {
+#menu {
+  height: 64px;
+  width: 64px;  
+  grid-area: menu;
+  margin: 8px;
   position: relative;
   right: 8px;
-  margin: 0px;
-  padding: 0px;
+}
+
+#menu > img {
   place-self: center;
-  grid-area: menu;
   object-fit: fill;
   width: 64px;
-  margin: 8px;
 }
