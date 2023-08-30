@@ -43,7 +43,7 @@ export default function CourseList() {
   return (
     <>
       <div className="card" id="course_list_card">
-        <h1>Check out some of our availble courses below!</h1>
+        <h1>Check out our available courses!</h1>
         <ul className="course_list">
           {coursesState.map((course, index) => (
             <li key={index}>
