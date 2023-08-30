@@ -1,3 +1,8 @@
+#home {
+  display: grid;
+  grid-area: home;
+}
+
 /* #home > .image_container {
   background: white;
   padding: 5%;

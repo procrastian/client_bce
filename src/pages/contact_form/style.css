@@ -1,0 +1,4 @@
+#contact_form {
+  display: grid;
+  grid-area: contactForm;
+}

@@ -9,15 +9,17 @@ import Qualifications from "./pages/qualifications";
 
 function App() {
   return (
-    <div className="container">
+    <>
+      <div className="container">
       <Header />
-      <Home />
-      <CourseList />
-      <ContactForm />
-      <About />
-      <Qualifications />
+        <Home />
+        <CourseList />
+        <ContactForm />
+        <About />
+        <Qualifications />
       <Footer />
-    </div>
+      </div>
+    </>
   );
 }
 

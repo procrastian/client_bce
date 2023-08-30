@@ -2,7 +2,7 @@ import "./style.css";
 
 export default function About() {
   return (
-    <div className="card" id="about">
+    <div className="card" id="about_experience">
       <div className="image_container">
         <img
           id=""

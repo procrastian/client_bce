@@ -13,10 +13,24 @@ body {
   color: var(--txt-main-color);
   font-size: 16px;
   padding: 8px;
+  display: grid;
+  grid-template-rows: 80px 1fr 80px;
+  grid-template-areas: 'header main footer';
+
 }
 
 h1 {
   text-align: center;
+}
+
+header {
+  display: grid;
+  grid-area: header;
+}
+
+footer {
+  display: grid;
+  grid-area: footer;
 }
 
 .container {
@@ -24,6 +38,10 @@ h1 {
   max-width: 800px;
   max-height: 1fr;
   margin: 0 auto;
+  display: grid;
+  grid-area: main;
+  grid-template-rows: minmax(80px, 1fr);
+  grid-template: "home courseList contactForm about qualifications";
 }
 
 .card {
@@ -37,7 +55,6 @@ h1 {
 
 .component {
   background-color: var(--primary-color);
-  width: 100vw;
   padding: 8px;
   border: solid 1px teal;
   height: 80px;

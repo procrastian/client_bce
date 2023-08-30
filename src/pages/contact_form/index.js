@@ -26,7 +26,7 @@ export default function ContactForm() {
 
   return (
     <>
-      <div className="card" id="contact">
+      <div className="card" id="contact_form">
         <div className="image_container">
           <img
             id=""

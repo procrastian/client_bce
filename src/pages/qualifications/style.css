@@ -1,3 +1,8 @@
+#qualifications {
+  display: grid;
+  grid-area: qualifications;
+}
+
 #qualifications_text {
   text-align: start;
 }  
