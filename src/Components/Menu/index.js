@@ -1,5 +1,5 @@
 import "./style.css";
-import menu from "../../assets/Menu_Weight_Regular.svg";
+import menu from "../../assets/menu.svg";
 import { useState } from "react";
 import MenuContent from "../MenuContent";
 
@@ -8,11 +8,8 @@ export default function Menu() {
 
   return (
     <>
-      <button onClick={() => setShowModal(true)}>
-        MENU
-        <span>
-          <img src={menu} alt="menu icon" />
-        </span>
+      <button id="menu_button" onClick={() => setShowModal(true)}>
+        <img src={menu} alt="menu icon" />
       </button>
       {showModal && <MenuContent onClose={() => setShowModal(false)} />}
     </>

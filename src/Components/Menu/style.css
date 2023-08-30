@@ -1,0 +1,8 @@
+#menu_button {
+  height: 64px;
+  width: 64px;
+}
+
+#menu_button > img {
+  place-self: center;
+}
