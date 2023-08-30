@@ -12,7 +12,6 @@ body {
   background-color: var(--bg-main-color);
   color: var(--txt-main-color);
   font-size: 16px;
-
 }
 
 h1 {
@@ -32,6 +31,8 @@ h1 {
   padding: 8px;
   margin: 32px 8px 32px 8px;
   border: solid 1px coral;
+  min-height: fit-content;
+  display: grid;
 }
 
 .component {
@@ -56,8 +57,4 @@ h1 {
   height: 40vmin;
   object-fit: cover;
   object-position: 100% center;
-}
-
-#qualifications {
-  height: 160px;
 }
