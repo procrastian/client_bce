@@ -11,9 +11,9 @@ function App() {
     <div className="container">
       <Header />
       <Home />
-      <About />
       <CourseList />
       <ContactForm />
+      <About />
       <Qualifications />
       <Footer />
     </div>

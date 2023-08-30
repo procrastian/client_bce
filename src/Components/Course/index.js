@@ -1,11 +1,11 @@
 import "./style.css";
 
-export default function Course() {
-  return (
-    <>
-      <div className="course">
-        <h1>This is A Course</h1>
-      </div>
-    </>
-  );
-}
+// export default function Course({course}) {
+//   return (
+//     <>
+//       <div className="course">
+
+//       </div>
+//     </>
+//   );
+// }
