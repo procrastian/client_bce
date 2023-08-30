@@ -6,12 +6,19 @@
   min-width: 100vw;
 }
 
-#logo > img {
+#logo {
   grid-area: logo;
   max-width: 64px;
-  border-radius: 50%;
   object-fit: contain;
-  margin: 8px;
+  padding: 8px;
+}
+
+#logo > img {
+  position: relative;
+  left: 8px;
+  margin: 0px;
+  padding: 0px;
+  place-self: center;
 }
 
 #buffer {
@@ -19,8 +26,13 @@
 }
 
 #menu > img {
+  position: relative;
+  right: 8px;
+  margin: 0px;
+  padding: 0px;
+  place-self: center;
   grid-area: menu;
-  max-width: 64px;
   object-fit: fill;
-  max-width: 8px;
+  width: 64px;
+  margin: 8px;
 }
