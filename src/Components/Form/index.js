@@ -53,13 +53,15 @@ export function Form({ formState, setFormState, resetForm, initialFormData }) {
           <input
             onChange={handleChange}
             type="number"
+            min={0}
+            max={18}
             name="childAge"
             value={formState.childAge}
           />
         </label>
 
         <div className="form__group">
-          <h3>Which course are you interested in?</h3>
+          <h3>Which courses are you interested in?</h3>
           <Checkboxes handleChange={handleChange} formState={formState} />
         </div>
 
@@ -89,7 +91,7 @@ export function Form({ formState, setFormState, resetForm, initialFormData }) {
           />
         </label>
 
-        <input className="form__submit" type="submit" value="Submit Survey!" />
+        <input className="form__submit" type="submit" value="Submit Enquiry!" />
       </form>
     </>
   );

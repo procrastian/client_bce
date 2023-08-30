@@ -16,6 +16,11 @@ export default function About() {
       <div className="text_container" id="home_text">
         <h1>About my experience</h1>
         <p>
+          Education is not confined to the four walls of a classroom. We learn
+          everyday from a wealth of different experiences. Recognising this and
+          our place in the world, is at the heart of <strong>Base Camp Education</strong>.
+        </p>
+        <p>
           From lifeguarding at summer camps, working with a Sport for
           Development charity in South Africa, mentoring undergraduates to
           working in UK secondary schools, I have enjoyed working with young
@@ -37,19 +42,14 @@ export default function About() {
         <p className="quote">
           <em>
             "Never doubt that a small group of thoughtful, committed citizens
-            can change the world; indeed, it's the only thing that ever has."
+            can change the world; indeed, it's the only thing that ever has." 
           </em>
-          Margaret Mead.
+           - Margaret Mead.
         </p>
         <p>
           These experiences, as well as travelling to over 50 countries and
           being immersed in nature through hobbies, has taught me the true value
           of protecting childhood and the health and wellbeing of our children.
-        </p>
-        <p>
-          Education is not confined to the four walls of a classroom. We learn
-          everyday from a wealth of different experiences. Recognising this and
-          our place in the world, is at the heart of <strong>Base Camp Education</strong>.
         </p>
         <p>
           Every child is unique and wonderful in their own way, and I strive to

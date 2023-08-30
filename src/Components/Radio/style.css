@@ -1,0 +1,4 @@
+#collective_radio > ul > li > input[type="radio"]:checked + label {
+  background-color: var(--primary-colour);
+  color: var(--main-text-color);
+}

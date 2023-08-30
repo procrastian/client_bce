@@ -1,0 +1,8 @@
+#courseInterestCheckboxes > ul > li {
+  list-style: none;
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--accent-color);
+  box-shadow: 0 0 0 3px var(--success-color);
+}
