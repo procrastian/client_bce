@@ -57,4 +57,5 @@ h1 {
   height: 40vmin;
   object-fit: cover;
   object-position: 100% center;
+  border-radius: 16px;
 }
