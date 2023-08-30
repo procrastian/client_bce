@@ -1,6 +1,6 @@
 import "./style.css";
 
-export default function Checkboxes({ handleChange, formState }) {
+export default function Checkboxes({ handleChange, formState, setFormState }) {
   return (
     <div id="courseInterestCheckboxes">
       <ul>

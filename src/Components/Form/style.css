@@ -1,4 +1,27 @@
+h2 {
+  text-align: center;
+}
+
 .form {
   border: 1px solid coral;
   display: grid;
+}
+
+.form > label {
+  text-align: center;
+}
+
+.form__submit {
+  width: 128px;
+  height: 64px;
+  place-self: center;
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 16px;
+  font-size: medium;
+}
+
+.form__submit:hover {
+  background-color: var(--success-color);
+  box-shadow: inset 0 0 8px var(--main-text-color);
 }

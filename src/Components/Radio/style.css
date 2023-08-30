@@ -1,4 +1,12 @@
-#collective_radio > ul > li > input[type="radio"]:checked + label {
-  background-color: var(--primary-colour);
-  color: var(--main-text-color);
+h3 {
+  text-align: center;
 }
+
+#collective_radio > ul > li {
+  list-style: none;
+}
+
+#collective_radio {
+  text-align: center;
+}
+

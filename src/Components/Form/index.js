@@ -30,6 +30,7 @@ export function Form({ formState, setFormState, resetForm, initialFormData }) {
 
         <label>
           What is your name?
+          <br/>
           <input
             onChange={handleChange}
             type="text"
@@ -37,9 +38,10 @@ export function Form({ formState, setFormState, resetForm, initialFormData }) {
             value={formState.parentName}
           />
         </label>
-
+        <br/>
         <label>
           What is the name of your child?
+          <br/>
           <input
             onChange={handleChange}
             type="text"
@@ -47,9 +49,10 @@ export function Form({ formState, setFormState, resetForm, initialFormData }) {
             value={formState.childName}
           />
         </label>
-
+        <br/>
         <label>
           How old is your child?
+          <br/>
           <input
             onChange={handleChange}
             type="number"
@@ -62,27 +65,29 @@ export function Form({ formState, setFormState, resetForm, initialFormData }) {
 
         <div className="form__group">
           <h3>Which courses are you interested in?</h3>
-          <Checkboxes handleChange={handleChange} formState={formState} />
+          <Checkboxes handleChange={handleChange} formState={formState} setFormState={setFormState}/>
         </div>
 
         <div className="form__group radio">
           <h3>Would you like to join our Home Educator Collective?</h3>
-          <Radio handleChange={handleChange} formState={formState} />
+          <Radio handleChange={handleChange} formState={formState} setFormState={setFormState}/>
         </div>
 
         <label>
           What is the reason for your enquiry?
+          <br/>
           <textarea
             onChange={handleChange}
-            name="reason"
-            cols="30"
-            rows="10"
+            name="enquiryReason"
+            cols="80"
+            rows="8"
             value={formState.enquiryReason}
           ></textarea>
         </label>
-
+        <br/>
         <label>
           What email address can we contact you at?
+          <br/>
           <input
             onChange={handleChange}
             type="email"
@@ -90,8 +95,9 @@ export function Form({ formState, setFormState, resetForm, initialFormData }) {
             value={formState.email}
           />
         </label>
-
+        <br/>
         <input className="form__submit" type="submit" value="Submit Enquiry!" />
+        <br/>
       </form>
     </>
   );
