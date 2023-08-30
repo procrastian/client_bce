@@ -1,0 +1,26 @@
+#header {
+  position: fixed;
+  top: 0px;
+  grid-template-columns: 80px 1fr 80px;
+  grid-template-areas: "logo buffer menu";
+  min-width: 100vw;
+}
+
+#logo > img {
+  grid-area: logo;
+  max-width: 64px;
+  border-radius: 50%;
+  object-fit: contain;
+  margin: 8px;
+}
+
+#buffer {
+  grid-area: buffer;
+}
+
+#menu > img {
+  grid-area: menu;
+  max-width: 64px;
+  object-fit: fill;
+  max-width: 8px;
+}

@@ -6,13 +6,36 @@
   --accent-color: hsl(176, 31%, 55%, 100%);
   --error-color: hsl(351, 62%, 54%, 100%);
   --success-color: hsl(137, 52%, 45%, 100%);
+  overflow-y: overlay;
+  scrollbar-gutter: hidden;
+}
+
+*::-webkit-scrollbar {
+  display: block;
+  width: 16px;
+}
+
+*::-webkit-scrollbar-button {
+  display: none;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #00000000;
+}
+
+*::-webkit-scrollbar-track-piece {
+  background-color: #00000000;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--accent-color);
+  border-radius: 16px;
 }
 
 body {
   background-color: var(--bg-main-color);
   color: var(--txt-main-color);
-  font-size: 16px;
-  padding: 8px;
+  margin: 0px;
 }
 
 h1 {
@@ -20,27 +43,31 @@ h1 {
 }
 
 .container {
+  margin-top: 80px;
   background-color: var(--bg-main-color);
-  max-width: 800px;
-  max-height: 1fr;
-  margin: 0 auto;
+  font-size: 16px;
+  margin: 0px;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, 1fr); */
+  grid-template-rows: repeat(auto-fit, minmax(80px, 1fr));
+  place-items: center;
 }
 
 .card {
+  max-width: 800px;
   background-color: var(--primary-color);
   border-radius: 8px;
   padding: 16px;
-  margin: 32px 8px 32px 8px;
+  margin: 32px 8px;
   min-height: fit-content;
   display: grid;
 }
 
 .component {
   background-color: var(--primary-color);
-  width: 100vw;
-  padding: 8px;
-  border: solid 1px teal;
   height: 80px;
+  padding: 0;
+  display: grid;
 }
 
 .text_container {
@@ -61,11 +88,11 @@ h1 {
 }
 
 button {
-  height: 64px;
+  height: 48px;
   width: 128px;
-  background-color: var(--primary-color);
+  background-color: var(--accent-color);
   border-radius: 16px;
   border: none;
-  box-shadow: inset 0 0 8px 8px var(--accent-color);
+  /* box-shadow: inset 0 0 8px 8px var(--primary-color); */
   color: var(--txt-main-color);
 }
