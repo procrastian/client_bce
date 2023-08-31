@@ -8,4 +8,5 @@
 
 #menu_button > img {
   place-self: center;
+  height: 48px;
 }
