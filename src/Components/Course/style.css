@@ -1,0 +1,9 @@
+.course_card {
+  display: grid;
+
+}
+
+.course_card > img {
+  max-width: 256px;
+  object-fit: contain;
+}
