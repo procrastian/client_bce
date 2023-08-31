@@ -6,14 +6,15 @@ export default function Course({ course }) {
       <h3>{course.title}</h3>
       <img src={course.coverImage} alt={`${course.title} cover`}/>
       <p>{course.description}</p>
-      <p>This course lasts for {course.length} sessions</p>
-      <p>The next course starts on: {course.startDate}</p>
+      <p>This course lasts for <strong>{course.length}</strong> sessions</p>
+      <p>The next course starts on: <strong>{course.startDate}</strong></p>
       <h4>Tags</h4>
       <ul> {course.tags.map((tag) => {
-        return <li>{tag}</li>
+        return <li><em>{tag}</em></li>
       })}
 
       </ul>
+      <br/>
       <button>Find out More</button>
     </li>
   );

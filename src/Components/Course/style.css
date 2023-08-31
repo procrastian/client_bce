@@ -5,12 +5,20 @@
   text-align: center;
   display: grid;
   place-content: center;
+  padding: 8px;
 }
 
 .course_card > img {
   width: 256px;
   height:256px;
   object-fit: cover;
+  border-radius: 16px;
 }
 
+.course_card > ul {
+  padding: 0;
+}
 
+.course_card > p {
+  margin: 0px;
+}
