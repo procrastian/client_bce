@@ -1,11 +1,10 @@
 import "./style.css";
 
-// export default function Course({course}) {
-//   return (
-//     <>
-//       <div className="course">
+export default function Course({ course }) {
+  return (
+    <li>
 
-//       </div>
-//     </>
-//   );
-// }
+      <button>Find out More</button>
+    </li>
+  );
+}
