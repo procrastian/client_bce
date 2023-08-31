@@ -1,9 +1,16 @@
 .course_card {
+  border-radius: 16px;
+  box-shadow: 8px 8px 4px var(--accent-color);
+  min-width: 256px;
+  text-align: center;
   display: grid;
-
+  place-content: center;
 }
 
 .course_card > img {
-  max-width: 256px;
-  object-fit: contain;
+  width: 256px;
+  height:256px;
+  object-fit: cover;
 }
+
+

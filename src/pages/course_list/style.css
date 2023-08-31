@@ -1,6 +1,6 @@
 .course_list {
   display: grid;
-  grid-template-columns: repeat(3, 240px);
+  grid-template-columns: repeat(3, 272px);
   grid-gap: 1rem;
   justify-content: center;
 }

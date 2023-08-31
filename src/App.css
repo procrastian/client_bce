@@ -8,6 +8,10 @@
   --success-color: hsl(137, 52%, 45%, 100%);
 }
 
+li {
+  list-style: none;
+}
+
 *::-webkit-scrollbar {
   display: block;
   width: 16px;
@@ -53,7 +57,7 @@ h1 {
 }
 
 .card {
-  max-width: 800px;
+  max-width: 1200px;
   background-color: var(--primary-color);
   border-radius: 16px;
   padding: 32px;
