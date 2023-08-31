@@ -55,11 +55,12 @@ h1 {
 .card {
   max-width: 800px;
   background-color: var(--primary-color);
-  border-radius: 8px;
+  border-radius: 16px;
   padding: 32px;
   margin: 32px 8px;
   min-height: fit-content;
   display: grid;
+  box-shadow: 8px 8px 8px var(--accent-color);
 }
 
 .component {

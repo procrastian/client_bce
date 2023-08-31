@@ -1,6 +1,9 @@
 #menu_button {
   height: 64px;
   width: 64px;
+  margin: 8px;
+  position: relative;
+  right: 8px;
 }
 
 #menu_button > img {
